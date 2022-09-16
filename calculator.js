@@ -25,20 +25,51 @@ function sqrt() {
 }
 
 function mathcos() {
-    document.getElementById("result").value
-    let y = Math.cos(0 * result / 180);
+    let x = document.getElementById('result').value
+    let y = Math.cos(x);
     document.getElementById('result').value = y
     return y
 }
 
 function mathsin() {
     let x = document.getElementById('result').value
-    let y = x * Math.PI / 180;
-    screen.value = Math.sin(x);
+    let y = Math.sin(x);
+    document.getElementById('result').value = y
+    return y
+}
+
+function mathtan() {
+    let x = document.getElementById('result').value
+    let y = Math.tan(x);
     document.getElementById('result').value = y
     return y
 }
 
 function mathlog() {
-    document.getElementById("result").innerHTML = Math.log(1);
+    let x = document.getElementById('result').value
+    let y = Math.log(x);
+    document.getElementById('result').value = y
+    return y
 }
+
+function pow() {
+    let x = document.getElementById('result').value
+    let y = Math.pow(x, 2);
+    document.getElementById('result').value = y
+    return y
+}
+
+function exp() {
+    let x = document.getElementById('result').value
+    let y = Math.exp(x);
+    document.getElementById('result').value = y
+    return y
+}
+
+function log2() {
+    let x = document.getElementById('result').value
+    let y = Math.log2(x);
+    document.getElementById('result').value = y
+    return y
+}
+
