@@ -1,4 +1,4 @@
- // write a function to display values
+// write a function to display values
 function display(val){
     document.getElementById('result').value += val
 
