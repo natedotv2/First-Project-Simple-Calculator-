@@ -19,7 +19,7 @@ function clearScreen() {
 
 function sqrt() {
     let x = document.getElementById('result').value
-    let y = Math.sqrt('result');
+    let y = Math.sqrt(x);
     document.getElementById('result').value = y
     return y
 }
